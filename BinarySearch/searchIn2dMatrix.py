@@ -12,22 +12,7 @@ class Solution:
         O(1), constant space.
         - No extra data structures used, only a few integer pointers.
     """
-
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        """
-        Search for a target integer in a 2D matrix.
-
-        Each row of the matrix is sorted in ascending order.
-        There is no guarantee on the relationship between rows.
-
-        Args:
-            matrix (List[List[int]]): 2D list of integers.
-            target (int): Value to search for.
-
-        Returns:
-            bool: True if target is found, False otherwise.
-        """
-
         # Iterate over each row in the matrix
         for row in matrix:
             left, right = 0, len(row) - 1

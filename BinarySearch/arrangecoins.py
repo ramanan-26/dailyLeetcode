@@ -12,4 +12,4 @@ class Solution:
             i = sums
             j += 1
         arr.append(i)
-        return len(arr)-1 #Better Solution need to find
+        return len(arr)-1 #Better Solution need to
